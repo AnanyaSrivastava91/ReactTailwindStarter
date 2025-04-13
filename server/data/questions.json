@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "sentence": "The {0} fox jumps over the {1} dog.",
+      "blanks": ["adjective", "adjective"],
+      "options": ["quick", "brown", "lazy", "old"],
+      "correctAnswers": ["quick", "lazy"]
+    },
+    {
+      "id": 2,
+      "sentence": "She {0} to the store to {1} groceries.",
+      "blanks": ["verb", "verb"],
+      "options": ["went", "walked", "buy", "purchase"],
+      "correctAnswers": ["went", "buy"]
+    },
+    {
+      "id": 3,
+      "sentence": "The {0} is known for its {1} beaches.",
+      "blanks": ["country", "adjective"],
+      "options": ["island", "Brazil", "sandy", "beautiful"],
+      "correctAnswers": ["Brazil", "beautiful"]
+    },
+    {
+      "id": 4,
+      "sentence": "Learning to {0} a bicycle is a {1} milestone.",
+      "blanks": ["verb", "adjective"],
+      "options": ["ride", "drive", "significant", "small"],
+      "correctAnswers": ["ride", "significant"]
+    },
+    {
+      "id": 5,
+      "sentence": "The {0} sang a {1} song in the morning.",
+      "blanks": ["animal", "adjective"],
+      "options": ["bird", "cat", "beautiful", "loud"],
+      "correctAnswers": ["bird", "beautiful"]
+    },
+    {
+      "id": 6,
+      "sentence": "He {0} his keys and had to {1} for them.",
+      "blanks": ["verb", "verb"],
+      "options": ["lost", "dropped", "search", "look"],
+      "correctAnswers": ["lost", "search"]
+    },
+    {
+      "id": 7,
+      "sentence": "The {0} building was designed by a famous {1}.",
+      "blanks": ["adjective", "profession"],
+      "options": ["tall", "historic", "architect", "engineer"],
+      "correctAnswers": ["historic", "architect"]
+    },
+    {
+      "id": 8,
+      "sentence": "She {0} the award for her {1} performance.",
+      "blanks": ["verb", "adjective"],
+      "options": ["received", "accepted", "outstanding", "average"],
+      "correctAnswers": ["received", "outstanding"]
+    },
+    {
+      "id": 9,
+      "sentence": "The {0} prepared a {1} meal for dinner.",
+      "blanks": ["person", "adjective"],
+      "options": ["chef", "mother", "delicious", "quick"],
+      "correctAnswers": ["chef", "delicious"]
+    },
+    {
+      "id": 10,
+      "sentence": "The {0} mountains are covered with {1} snow.",
+      "blanks": ["adjective", "adjective"],
+      "options": ["high", "distant", "white", "fresh"],
+      "correctAnswers": ["high", "fresh"]
+    }
+  ]
+}
