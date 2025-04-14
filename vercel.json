@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/index.ts",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
+  ],
+  "routes": [
+    { 
+      "src": "/api/(.*)", 
+      "dest": "/api/index.ts" 
+    },
+    { 
+      "src": "/(assets|images|icons)/.*",
+      "dest": "/dist/$0"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/dist/favicon.ico"
+    },
+    { 
+      "src": "/(.*)", 
+      "dest": "/dist/index.html"
+    }
+  ]
+}
