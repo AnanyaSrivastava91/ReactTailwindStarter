@@ -1,6 +1,7 @@
 import { useQuestionContext } from "@/context/QuestionContext";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
+import { Link } from "wouter";
 
 const ResultsScreen = () => {
   const { userAnswers, questions, restartQuiz } = useQuestionContext();
@@ -72,13 +73,21 @@ const ResultsScreen = () => {
         ))}
       </div>
 
-      {/* Restart Button */}
-      <div className="mt-8">
+      {/* Action Buttons */}
+      <div className="mt-8 flex gap-4 justify-center">
         <Button 
           onClick={restartQuiz}
           className="bg-primary text-white py-3 px-8 rounded-md font-medium shadow hover:bg-indigo-700 transition-colors duration-200"
         >
           Try Again
+        </Button>
+        
+        <Button 
+          variant="outline"
+          onClick={() => window.location.href = "/"}
+          className="border-primary text-primary py-3 px-8 rounded-md font-medium shadow hover:bg-gray-50 transition-colors duration-200"
+        >
+          Home
         </Button>
       </div>
     </div>
