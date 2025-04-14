@@ -82,13 +82,14 @@ const ResultsScreen = () => {
           Try Again
         </Button>
         
-        <Button 
-          variant="outline"
-          onClick={() => window.location.href = "/"}
-          className="border-primary text-primary py-3 px-8 rounded-md font-medium shadow hover:bg-gray-50 transition-colors duration-200"
-        >
-          Home
-        </Button>
+        <Link href="/">
+          <Button 
+            variant="outline"
+            className="border-primary text-primary py-3 px-8 rounded-md font-medium shadow hover:bg-gray-50 transition-colors duration-200"
+          >
+            Home
+          </Button>
+        </Link>
       </div>
     </div>
   );
